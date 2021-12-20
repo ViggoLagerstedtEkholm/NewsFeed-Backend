@@ -33,7 +33,7 @@ public class RssServiceImplementation implements RssService {
     }
 
     @Override
-    public List<RSS> getAllRSSByUsername(User user) {
+    public List<RSS> getAllRSSUser(User user) {
         return rssRepository.findAllByUserEquals(user);
     }
 }

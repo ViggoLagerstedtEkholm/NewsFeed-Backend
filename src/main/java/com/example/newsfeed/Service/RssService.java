@@ -9,5 +9,5 @@ public interface RssService {
     void saveRSS(RSS rss);
     void removeRSS(Long rss);
     RSS getRSS(Long id);
-    List<RSS> getAllRSSByUsername(User user);
+    List<RSS> getAllRSSUser(User user);
 }
